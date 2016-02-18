@@ -4,13 +4,13 @@
 <http://p2.tulou.io>
 
 ## Description
-An xkcd password generator to practice basic PHP
+Built an xkcd password generator to practice PHP
 
 ## Demo
 <https://www.youtube.com/>
 
 ## Details for teaching team
-Word list for password generator taken from http://www.mit.edu/~ecprice/wordlist.10000
+None
 
 ## Outside code, plugins, libraries, packages used in project
-None
+Word list for password generator from http://www.mit.edu/~ecprice/wordlist.10000
