@@ -37,7 +37,7 @@ function getpassword() {
     unpackpost();
     $password = Array();
 
-    // Tell user to enter a number between 1 and 9
+    // Validate if user entered number between 1 and 9
     if ($wordnum === "" || $wordnum <= 0 || $wordnum > 9) {
         return "Enter a number of words between 1 and 9";
     }
