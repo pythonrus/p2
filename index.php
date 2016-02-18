@@ -25,11 +25,13 @@ ini_set('display_errors', 1);
 
         <h1><strong>xkcd Password Generator</strong></h1>
 
-        <img src='images/password_strength.png'><br>
+        <img src='images/password_strength.png'>
 
-        <p><p><strong>Is a string of common words simultaneously hard to guess and easy to remember, making it a good password?  Get your own password now!<strong></p></p>
+        <p><p><strong><a href="https://xkcd.com/936/">original article from xkcd</a><strong></p></p></br>
 
-        <p><p><a href="https://xkcd.com/936/">Original article on xkcd.com</a></p></p>
+        <p><p><strong>Is a string of concatenated common words a good password because it is simultaneously hard to guess and easy to remember?<strong></p></p>
+
+        <p><p><strong>Get our own password with this generator!<strong></p></p>
 
         <h2><mark><?php echo getpassword();?></mark></h2>
 
